@@ -1,7 +1,7 @@
 <h3>Question 1</h3>
 <?php
   // Question 1
-  echo "Hello, World <br />"
+  echo "Hello, World <br /> " ;
   echo "Hello back";
 ?>
 
@@ -11,7 +11,7 @@
 <?php
   // Question 2
   $greeting = "Good morning";
-  echo $Greeting;
+  echo $greeting;
 ?>
 
 <hr />
@@ -29,7 +29,7 @@
 
 <?php
   // Question 4
-  $colors = array("Red", "Green", "Blue";
+  $colors = array("Red", "Green", "Blue");
   echo $colors[1];
 ?>
 
@@ -41,7 +41,7 @@
   function greet($name) {
     echo "Hello, " . $name;
   }
-  greet();
+  greet("");
 ?>
 
 <hr />
@@ -72,7 +72,7 @@
 <?php
   // Question 8
   define("GREETING", "Hello, everyone.");
-  echo GREETINGS;
+  echo "GREETINGS";
 ?>
 
 <hr />
