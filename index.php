@@ -21,7 +21,7 @@
   // Question 3
   $firstName = "John";
   $lastName = "Doe";
-  echo "Name: " + $firstName + " " + $lastName;
+  echo "Name: '' + $firstName + '' + $lastName";
 ?>
 
 <hr />
@@ -63,7 +63,7 @@
 <?php
   // Question 7
   $count = 0;
-  echo 'Count: ' + ++$count;
+  echo "'Count: ' + ++$count";
 ?>
 
 <hr />
