@@ -50,7 +50,7 @@
 <?php
   // Question 6: Be careful, this will not result in a loud error, it's just going to be wrong. Read the code to figure out what it SHOULD do, and make sure it does that.
   $age = 20;
-  if ($age = 18) {
+  if ($age == 18) {
       echo "You are 18 years old.";
   } else {
     echo "You are not 18 years old.";
@@ -63,7 +63,8 @@
 <?php
   // Question 7
   $count = 0;
-  echo "Count: ++$count";
+  echo 'Count:' . ++$count;
+  // echo "'Count: ' + ++$count";
 ?>
 
 <hr />
@@ -83,7 +84,7 @@
   function sayHello() {
     echo "Hello!";
   }
-  sayHello("John");
+  sayHello("");
 ?>
 
 <hr />
